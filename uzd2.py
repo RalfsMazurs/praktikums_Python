@@ -5,3 +5,10 @@ un izvada uz ekrāna sveicienu sekojošā formātā:
 Ja ievadīts nav jūsu vards, tiek izdrukāts teksts - Uzredzēšanos!
 Pārbaudiet programmas darbību ar dažādiem ievaddatiem.
 """
+
+vards = input("Vards:")
+
+if vards!=("Ralfs"):
+    print("Uzredzēšanos!")
+if vards==("Ralfs"):
+    print("Labdien, " + vards + ", pirmdienā!")

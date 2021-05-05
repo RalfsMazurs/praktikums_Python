@@ -11,3 +11,12 @@
         int vai float -- argumentu summa
     
     """
+    def bilde(a, b):
+    bilde=a+b
+    return bilde
+print("rezultātam 12: ", bilde(-4, -5))
+rez=bilde(1,1)
+print(rez)
+print("pozitīvs + neg tests",bilde(5,-5)==0.0)
+
+"es nesapratu sito"
