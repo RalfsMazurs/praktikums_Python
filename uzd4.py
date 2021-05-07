@@ -1,7 +1,8 @@
 """
 Izveidot funkciju, kura atgriež skaitļu kvadrātus, lietotāja norādītā apgabalā.
 """
-sk=float(input("ievadi sk:"))
 
-if sk<=(10):
-    print(sk ** 2)
+def kvadratus(x):
+    return x * x
+
+print(list(map(kvadratus, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])))

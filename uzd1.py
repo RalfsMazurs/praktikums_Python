@@ -5,9 +5,11 @@ riņķa līnijas garumu un laukumu, atbilstoši noformējot atbildi.
 Pārbaudiet programmas darbību ar dažādiem ievaddatiem.
 """
 
-sk=float(input("ievadi sk:"))
+from math import pi
+r=float(input("Ievadi skaitli: "))
 
-laukums=3.14*sk ** 2
-garums=2*3.14*sk
+c=str(2*pi*r)
+s=str(pi*r**2)
 
-print(laukums, garums)
+print("Riņķā līnijas garums ir "+c)
+print("bet laukumns ir  "+s)

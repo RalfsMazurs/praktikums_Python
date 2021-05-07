@@ -3,8 +3,8 @@ Uzrakstiet Python programmu, lai iegūtu sfēras
  ar lietotāja norādītu rādiusu tilpumu.
  """
 
-sk=float(input("ievadi sk:"))
+from math import pi
+r=float(input("Ievadi skaitli: "))
 
-sfera=4*3.14*(sk ** 2)
-
-print(sfera)
+V= 4.0/3.0*pi* r**3
+print("Tilpums ir:",V)

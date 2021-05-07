@@ -1,4 +1,4 @@
- """
+"""
     Funkcija Bilde akceptē divus argumentus - skaiļus a un b,
     aprēķina to kubu summu un atgriež to.
     Pārbaudiet funkcijas darbību ar dažādiem argumentiem, 
@@ -10,13 +10,14 @@
     Atgriež:
         int vai float -- argumentu summa
     
-    """
-    def bilde(a, b):
-    bilde=a+b
-    return bilde
-print("rezultātam 12: ", bilde(-4, -5))
-rez=bilde(1,1)
-print(rez)
-print("pozitīvs + neg tests",bilde(5,-5)==0.0)
+"""
+def bilde (a,b):
+    summa=a**3+b**3
+    return summa
 
-"es nesapratu sito"
+pirmais=int(input("ievadi pirmo skaitli: "))
+otrais=int(input("ievadi otro skaitli: "))
+
+aka=bilde=(pirmais,otrais)
+
+print("{0:.3f}".format(aka))

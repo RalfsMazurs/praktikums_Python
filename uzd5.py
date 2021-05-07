@@ -3,8 +3,9 @@ Uzrakstiet programmu Python,
 kas pieņem veselu skaitli (n) un 
 aprēķina n + nn + nnn vērtību.
 """
-n=int(input("ievadi n:"))
+a=input("Ievadi ciparu: ")
+aa=str(a)+str(a)
+aaa=str(a)+str(a)+str(a)
+summa=int(a)+int(aa)+int(aaa)
 
-smth=n+(n ** 2)+(n ** 3)
-
-print(smth)
+print(summa)
